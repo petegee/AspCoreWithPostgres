@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreWithPostgres", "AspCoreWithPostgres.csproj", "{58A6BBA4-95AF-4935-87CE-2B30D6FB11C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreWithPostgres", ".\AspCoreWithPostgres\AspCoreWithPostgres.csproj", "{58A6BBA4-95AF-4935-87CE-2B30D6FB11C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{0C26FCC1-07D4-41DC-AD13-C99F752DFA05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", ".\Tests\Tests.csproj", "{0C26FCC1-07D4-41DC-AD13-C99F752DFA05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
