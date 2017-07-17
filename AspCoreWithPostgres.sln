@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreWithPostgres", ".\AspCoreWithPostgres\AspCoreWithPostgres.csproj", "{58A6BBA4-95AF-4935-87CE-2B30D6FB11C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreWithPostgres", "AspCoreWithPostgres\AspCoreWithPostgres.csproj", "{58A6BBA4-95AF-4935-87CE-2B30D6FB11C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", ".\Tests\Tests.csproj", "{0C26FCC1-07D4-41DC-AD13-C99F752DFA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{0C26FCC1-07D4-41DC-AD13-C99F752DFA05}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DE2D152B-0F03-47F3-A21C-D4449A8F01C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0C26FCC1-07D4-41DC-AD13-C99F752DFA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C26FCC1-07D4-41DC-AD13-C99F752DFA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C26FCC1-07D4-41DC-AD13-C99F752DFA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2D152B-0F03-47F3-A21C-D4449A8F01C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2D152B-0F03-47F3-A21C-D4449A8F01C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2D152B-0F03-47F3-A21C-D4449A8F01C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2D152B-0F03-47F3-A21C-D4449A8F01C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
